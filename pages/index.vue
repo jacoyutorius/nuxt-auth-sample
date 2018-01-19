@@ -24,6 +24,15 @@
 export default {
   name: "home",
   components: {
+  },
+  data() {
+    return { me: "aaa"}
+  },
+  asyncData(context) {
+    return { name: "Hogehoge"}
+  },
+  router: {
+    middleware: [ "auth" ]
   }
 }
 </script>
