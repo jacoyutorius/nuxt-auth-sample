@@ -20,3 +20,13 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
+## add bulma
+
+```bash
+@nuxtjs/bulma
+```
+
+https://github.com/nuxt-community/modules/tree/master/packages/bulmaw
+
+[Nuxt.jsにBulmaを導入してカスタマイズ](https://qiita.com/mnmemo/items/5eb4fb8cbfe17670fd36)
