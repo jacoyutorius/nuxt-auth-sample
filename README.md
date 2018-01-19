@@ -2,6 +2,8 @@
 
 > Nuxt.js project
 
+Nuxt.jsのSPAモードで認証機能を実装してみるサンプル。（まだ開発中）
+
 ## Build Setup
 
 ``` bash
@@ -34,3 +36,11 @@ https://github.com/nuxt-community/modules/tree/master/packages/bulmaw
 ## Nuxt modules
 
 [font-awesome](https://github.com/nuxt-community/modules/tree/master/packages/font-awesome)
+
+## auth server
+
+```bash
+cd server
+bundle install --path .bundle
+bundle exec ruby app.rb
+```
