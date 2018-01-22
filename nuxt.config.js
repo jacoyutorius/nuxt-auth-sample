@@ -39,8 +39,8 @@ module.exports = {
   modules: [
     '@nuxtjs/bulma',
     '@nuxtjs/font-awesome'
-  ]
-  // router: {
-  //   middleware: 'auth'
-  // }  
+  ],
+  router: {
+    middleware: 'auth'
+  }  
 }

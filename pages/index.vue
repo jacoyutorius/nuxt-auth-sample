@@ -31,9 +31,7 @@ export default {
   asyncData(context) {
     return { name: "Hogehoge"}
   },
-  router: {
-    middleware: [ "auth" ]
-  }
+  middleware: [ "auth" ]
 }
 </script>
 
